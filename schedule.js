@@ -1,5 +1,6 @@
 //const schedule = require('./schedule.json');
-const schedule = require('./schedule.timedate.json');
+const schedule = require('./schedule.no.preorder.json');
+//const schedule = require('./schedule.timedate.json');
 
 groupPrices(schedule);
 
@@ -24,6 +25,12 @@ function groupPrices(schedule) {
   let normal = [];
   let prices = []
 
+  const globalStartDate = () => {
+    if(schedule.preOrderDate) return schedule.preOrderDate;
+
+    return schedule.startDate ? schedule.startDate : schedule.startDateTime;
+  }
+
   /**
    * check all prices and make sure they fall within the schedule dates
    */
@@ -31,7 +38,7 @@ function groupPrices(schedule) {
     let absEndDate = schedule.prices[i].endDate ? schedule.prices[i].endDate : schedule.prices[i].endDateTime;
     let absStartDate = schedule.prices[i].startDate ? schedule.prices[i].startDate : schedule.prices[i].startDateTime;
     
-    if (!absEndDate || absEndDate >= schedule.preOrderDate) {
+    if (!absEndDate || absEndDate >= globalStartDate) {
       schedule.prices[i].absEndDate = absEndDate;
       schedule.prices[i].absStartDate = absStartDate;
       valid.push(schedule.prices[i]);
@@ -58,6 +65,7 @@ function groupPrices(schedule) {
    * insert a non preorder price if dates don't line up
    */
   (function() {
+    if(preOrder.length == 0) return;
     preOrder[preOrder.length-1].endDate = schedule.startDate;
     preOrder[preOrder.length-1].endDateTime = schedule.startDateTime;
 
@@ -77,36 +85,23 @@ function groupPrices(schedule) {
 
   }());
 
-
-  // move this to new function buildPriceArray
   for (var i = 0; i < preOrder.length; i++) {
-    let price = {};
     if (preOrder[i].absStartDate <= schedule.preOrderDate) {
-      price.startDate = schedule.preOrderDate;
-      price.startDateTime = null;
-    } else {
-      price.startDate = preOrder[i].startDate;
-      price.startDateTime = preOrder[i].startDateTime;
-    }
+      preOrder[i].startDate = schedule.preOrderDate;
+    } 
 
     if (preOrder[i].endDate <= schedule.startDate) {
-      price.endDate = preOrder[i].endDate;
-      price.endDateTime = preOrder[i].endDateTime;
+      preOrder[i].endDate = preOrder[i].endDate;
+      preOrder[i].endDateTime = preOrder[i].endDateTime;
     } else {
-      price.endDate = schedule.startDate;
-      price.endDateTime = schedule.startDateTime;
+      preOrder[i].endDate = schedule.startDate;
+      preOrder[i].endDateTime = schedule.startDateTime;
     }
-
-    price.currencyCode = preOrder[i].currencyCode;
-    price.priceType = preOrder[i].priceType;
-    price.priceCode = preOrder[i].priceCode;
-    price.price = preOrder[i].price;
-    price.preorder = true;
-
-    prices.push(price);
   }
 
+  prices.push(preOrder);
   prices.push(...normal);
+
   console.log(valid);
   console.log('\n\n');
   console.log(preOrder);

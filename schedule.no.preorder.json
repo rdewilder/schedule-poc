@@ -9,7 +9,7 @@
     "priorPreorder": false,
     "intervals": true,
     "redownload": null,
-    "preOrderDate": "2013-04-30",
+    "preOrderDate": null,
     "clipPreviewDate": null,
     "clipPreviewDateTime": null,
     "coverArtPreviewDate": null,
@@ -22,24 +22,13 @@
     "rightsClaimPolicies": [],
     "prices": [
         {
-            "startDate": "2013-02-25",
-            "endDate": "2013-03-25",
-            "startDateTime": null,
-            "endDateTime": null,
-            "currencyCode": "GBP",
-            "priceType": "PRICE_CODE",
-            "priceCode": "B99",
-            "price": null,
-            "preorder": null
-        },
-        {
             "startDate": "2013-03-25",
             "endDate": "2015-05-12",
             "startDateTime": null,
             "endDateTime": null,
             "currencyCode": "GBP",
             "priceType": "PRICE_CODE",
-            "priceCode": "B98",
+            "priceCode": "B99",
             "price": null,
             "preorder": null
         },
