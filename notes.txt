@@ -1,0 +1,18 @@
+1. find all prices with an enddate on or after schedule preOrderDate
+2. find all prices for result 1 with an endate on or before schedule start date.
+    - res 2a: all matches
+    - res 2b: the remainder
+3. build price 1
+    startDate: schedule preorderDate
+    endDate: lesser of schedule startDate and 2a head
+    priceinfo: 2a head
+4.  remove head from 2a
+5.  repeat step 3 until schedule startdate < 2a head
+6.  append 2b to new price array
+
+
+
+
+
+
+Non preorder doesn't matter, just render prices

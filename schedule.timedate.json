@@ -1,0 +1,59 @@
+{
+    "functionalityType": "FULL_ALBUM_DOWNLOAD",
+    "territoryCd": "GB",
+    "usageStatus": "INCLUDE",
+    "startDate": "2013-05-27T00:00:00",
+    "startDateTime": null,
+    "endDate": null,
+    "endDateTime": null,
+    "priorPreorder": false,
+    "intervals": true,
+    "redownload": null,
+    "preOrderDate": "2013-04-30",
+    "clipPreviewDate": null,
+    "clipPreviewDateTime": null,
+    "coverArtPreviewDate": null,
+    "coverArtPreviewDateTime": null,
+    "trackListPreviewDate": null,
+    "trackListPreviewDateTime": null,
+    "releaseDisplayDate": null,
+    "releaseDisplayDateTime": null,
+    "commercialModels": [],
+    "rightsClaimPolicies": [],
+    "prices": [
+        {
+            "startDate": null,
+            "endDate": null,
+            "startDateTime": "2013-03-25T00:00:00",
+            "endDateTime": "2015-05-12T59:59:59",
+            "currencyCode": "GBP",
+            "priceType": "PRICE_CODE",
+            "priceCode": "B99",
+            "price": null,
+            "preorder": null
+        },
+        {
+            "startDate": null,
+            "endDate": null,
+            "startDateTime": "2015-05-13T00:00:00",
+            "endDateTime": "2016-07-29T59:59:59",
+            "currencyCode": "GBP",
+            "priceType": "PRICE_CODE",
+            "priceCode": "B84",
+            "price": null,
+            "preorder": null
+        },
+        {
+            "startDate": null,
+            "endDate": null,
+            "startDateTime": "2016-07-30T00:00:00",
+            "endDateTime": null,
+            "currencyCode": "GBP",
+            "priceType": "PRICE_CODE",
+            "priceCode": "B74",
+            "price": null,
+            "preorder": null
+        }
+    ],
+    "scheduleIntervals": []
+}

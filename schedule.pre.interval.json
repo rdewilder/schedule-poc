@@ -1,0 +1,70 @@
+{
+    "functionalityType": "FULL_ALBUM_DOWNLOAD",
+    "territoryCd": "GB",
+    "usageStatus": "INCLUDE",
+    "startDate": "2013-05-27",
+    "startDateTime": null,
+    "endDate": null,
+    "endDateTime": null,
+    "priorPreorder": false,
+    "intervals": true,
+    "redownload": null,
+    "preOrderDate": "2013-04-30",
+    "clipPreviewDate": null,
+    "clipPreviewDateTime": null,
+    "coverArtPreviewDate": null,
+    "coverArtPreviewDateTime": null,
+    "trackListPreviewDate": null,
+    "trackListPreviewDateTime": null,
+    "releaseDisplayDate": null,
+    "releaseDisplayDateTime": null,
+    "commercialModels": [],
+    "rightsClaimPolicies": [],
+    "prices": [
+        {
+            "startDate": "2013-03-25",
+            "endDate": "2013-05-12",
+            "startDateTime": null,
+            "endDateTime": null,
+            "currencyCode": "GBP",
+            "priceType": "PRICE_CODE",
+            "priceCode": "B99",
+            "price": null,
+            "preorder": null
+        },
+        {
+            "startDate": "2013-05-12",
+            "endDate": "2015-05-13",
+            "startDateTime": null,
+            "endDateTime": null,
+            "currencyCode": "GBP",
+            "priceType": "PRICE_CODE",
+            "priceCode": "B100",
+            "price": null,
+            "preorder": null
+        },
+        {
+            "startDate": "2015-05-13",
+            "endDate": "2016-07-29",
+            "startDateTime": null,
+            "endDateTime": null,
+            "currencyCode": "GBP",
+            "priceType": "PRICE_CODE",
+            "priceCode": "B84",
+            "price": null,
+            "preorder": null
+        },
+        {
+            "startDate": "2016-07-29",
+            "endDate": null,
+            "startDateTime": null,
+            "endDateTime": null,
+            "currencyCode": "GBP",
+            "priceType": "PRICE_CODE",
+            "priceCode": "B74",
+            "price": null,
+            "preorder": null
+        }
+    ],
+    "scheduleIntervals": []
+}
