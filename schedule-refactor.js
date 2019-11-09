@@ -1,6 +1,6 @@
-const schedule = require('./schedule.json');
+//const schedule = require('./schedule.json');
 //const schedule = require('./schedule.no.preorder.json');
-//const schedule = require('./schedule.timedate.json');
+const schedule = require('./schedule.timedate.json');
 
 
 /**
@@ -44,6 +44,7 @@ function getValidPrices(schedule) {
         console.log('in here');
         if(schedule.preOrderDate) {
           schedule.prices[i].startDate = schedule.preOrderDate;
+          schedule.prices[i].startDateTime = null;
           schedule.prices[i].absStartDate = schedule.preOrderDate;
         }
         else {
@@ -101,6 +102,7 @@ function alignDates(preorder, normal, schedule) {
       price.startDateTime = preorder[preorder.length-1].endDateTime;
       price.endDateTime = normal[0].startDateTime;
       price.preorder = false;
+      price.rob = 'piss';
       normal.unshift(price);
     }
   }
