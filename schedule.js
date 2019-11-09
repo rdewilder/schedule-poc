@@ -3,12 +3,30 @@ const schedule = require('./schedule.timedate.json');
 
 groupPrices(schedule);
 
+/**
+ * 
+ * Scheduling and pricing are independant in GRPS.  For functionalities that require pricing
+ * this can result in a scenario where a pricing interval is earlier than the schedule start time.
+ * For DDEX offers this is normalized but in iTunes this passed through in the XML.
+ * 
+ * SMEJ cannot handle this logic and needs us to normalize the price intervals for iTunes as well
+ *  
+ */
+
+/**
+ * 
+ * @param {*} schedule
+ * 
+ */
 function groupPrices(schedule) {
   let valid = [];
   let preOrder = [];
   let normal = [];
   let prices = []
 
+  /**
+   * check all prices and make sure they fall within the schedule dates
+   */
   for (var i = 0; i < schedule.prices.length; i++) {
     let absEndDate = schedule.prices[i].endDate ? schedule.prices[i].endDate : schedule.prices[i].endDateTime;
     let absStartDate = schedule.prices[i].startDate ? schedule.prices[i].startDate : schedule.prices[i].startDateTime;
@@ -20,6 +38,9 @@ function groupPrices(schedule) {
     }
   }
 
+  /**
+   * group prices into preorder and normal groups
+   */
   for (var i = 0; i < valid.length; i++) {
     if (valid[i].absStartDate <= schedule.startDate) {
       valid[i].preorder = true;
@@ -33,6 +54,9 @@ function groupPrices(schedule) {
   // subtract 1 second from startDatetime
   // check to make sure dates don't already line up
   // check and make sure normal and preOrder are not empty
+  /**
+   * insert a non preorder price if dates don't line up
+   */
   (function() {
     preOrder[preOrder.length-1].endDate = schedule.startDate;
     preOrder[preOrder.length-1].endDateTime = schedule.startDateTime;
