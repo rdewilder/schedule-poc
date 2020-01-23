@@ -1,0 +1,2387 @@
+{
+    "schemaVersion": "0.3.0",
+    "messageId": "8b8949f8-0b47-4278-a70c-9e5f5aa55920",
+    "messageTimestamp": "2019-10-15T03:14:42.278Z",
+    "success": true,
+    "errorCode": null,
+    "errorMessage": null,
+    "group": {
+        "groupId": 161436744,
+        "aomaDspId": "ITN",
+        "actionType": "INS",
+        "priority": 4,
+        "deliverySpecVersion": "ITP_5_3",
+        "holdIndicator": false,
+        "sampleDrop": false,
+        "assets": true,
+        "lightweightRevoke": false,
+        "supportTypes": [],
+        "clientProperties": {
+            "AOMA_BATCH_ID": "168633484"
+        },
+        "product": {
+            "offerId": 934625727,
+            "raasProductId": "G010004168422N",
+            "language": "en",
+            "releaseType": null,
+            "scheduleSetId": "19419841",
+            "excludeSetId": null,
+            "clearances": [],
+            "igOfferMaps": null,
+            "synopsis": null,
+            "title": {
+                "title": "DEATH STRANDING: Timefall (Original Music from the World of Death Stranding)",
+                "language": "en",
+                "phonetic": null,
+                "version": null,
+                "alternate": null,
+                "localTitles": []
+            },
+            "artists": [
+                {
+                    "seqNo": 1,
+                    "name": "Various Artists",
+                    "type": "Primary",
+                    "roles": [
+                        {
+                            "roleName": "Performer",
+                            "userDefined": false,
+                            "roleType": "Performance"
+                        }
+                    ],
+                    "localNames": [
+                        {
+                            "name": "众艺人",
+                            "language": "cmn-Hans",
+                            "phonetic": null
+                        },
+                        {
+                            "name": "眾藝人",
+                            "language": "cmn-Hant",
+                            "phonetic": null
+                        },
+                        {
+                            "name": "รวมศิลปิน",
+                            "language": "th",
+                            "phonetic": null
+                        }
+                    ]
+                }
+            ],
+            "contributors": [],
+            "assets": [
+                {
+                    "masterId": 13939707,
+                    "assetType": "COV",
+                    "sourceFormat": null,
+                    "assetProperties": null,
+                    "conversions": [
+                        {
+                            "aomaConversionTypeId": 2037,
+                            "conversionTypeDescr": "JPEG - Original Size - 72dpi - Colorspace: RGB; Unbounded"
+                        }
+                    ]
+                }
+            ],
+            "metadata": {
+                "applePreOrder": true,
+                "genre": "SOUNDTRACK-00",
+                "label": "Sony Interactive Entertainment/RCA Records",
+                "preOrderPreview": false,
+                "provider": "Sony BMG Music Entertainment.",
+                "publisher": null,
+                "albumAdvisory": null,
+                "albumCopyright": "This Compilation (P) 2019 RCA Records, a division of Sony Music Entertainment",
+                "albumCopyrightType": null,
+                "albumCopyrightYear": 2019,
+                "albumDescription": null,
+                "albumParentRepOwnerCode": null,
+                "albumParentRepOwnerDesc": null,
+                "closedCaptionAvailable": null,
+                "countryOfOrigin": null,
+                "hdAvailable": null,
+                "imDeliver": null,
+                "imDescription": null,
+                "lfvPhyReleaseDate": null,
+                "mfitDeliver": false,
+                "originalSpokenLocale": null,
+                "parentFlorCode": null,
+                "parentFlorDesc": null,
+                "physicalProdMediaCt": 1,
+                "physicalProdReleaseDt": "2019-11-07",
+                "physicalProdTrackBundleCt": 0,
+                "physicalProdTrackCt": 8,
+                "physicalProdUpc": "886448046455",
+                "productGrid": null,
+                "productionCompany": null,
+                "rentalType": null,
+                "subType": null,
+                "albumArtist": "Various Artists",
+                "synopsis": null,
+                "includeChapter": null,
+                "audioLanguage": null,
+                "isrc": null,
+                "mfitContact": null,
+                "performanceGrid": null,
+                "physicalDiscNo": null,
+                "physicalTrackHiddenIn": null,
+                "physicalTrackNo": null,
+                "preOrderOnly": null,
+                "preOrderTrackType": null,
+                "relatedAudioIsrc": null,
+                "trackAdvisory": null,
+                "trackCopyright": null,
+                "trackCopyrightType": null,
+                "trackCopyrightYear": null,
+                "trackGrid": null,
+                "trackParentRepOwnerCode": null,
+                "trackParentRepOwnerDesc": null,
+                "trackArtist": null,
+                "timeCodeFormat": null,
+                "chapterStartTime": null,
+                "chapterDuration": null,
+                "territoryMetadataValues": null,
+                "keywords": [],
+                "channel": null
+            },
+            "bonuses": [],
+            "tracks": [
+                {
+                    "offerId": 934625721,
+                    "raasTrackNo": "71513539020190724",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 1,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 181,
+                    "scheduleSetId": "19419839",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Trigger",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "Major Lazer",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Khalid",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Khalid Robinson",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Diplo",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 3,
+                            "name": "Thomas Pentz",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 4,
+                            "name": "Jr. Blender",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 5,
+                            "name": "Philip Meckseper",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 6,
+                            "name": "Alvaro",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Misc. Prod.",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 7,
+                            "name": "Andrew Wyatt",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 8,
+                            "name": "Bas van Daalen",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Misc. Prod.",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 9,
+                            "name": "Jasper Helderman",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 10,
+                            "name": "Michael Romero",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Assistant Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 11,
+                            "name": "Dale Becker",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mastering Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": null,
+                            "assetType": "AUD",
+                            "sourceFormat": null,
+                            "assetProperties": null,
+                            "conversions": []
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "R-B-SOUL-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "USRC11902084",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 1,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "standard",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 Third Pardee Records & RCA Records",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "Major Lazer &  Khalid",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                },
+                {
+                    "offerId": 934625720,
+                    "raasTrackNo": "L0826377920190920",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 2,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 178,
+                    "scheduleSetId": "19419839",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Ghost",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "Au/Ra",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Vocal",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Alan Walker",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Jamie Aura Stenzel",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Andrew Frampton",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Keyboards",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Co-Producer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 3,
+                            "name": "Max Farrar",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Keyboards",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Co-Producer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 4,
+                            "name": "Marcus Ambekk",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Co-Producer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 5,
+                            "name": "Big Fred",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Co-Producer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 6,
+                            "name": "Colton Avery",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 7,
+                            "name": "Sara Övinge",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Violin",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 8,
+                            "name": "Fredrick Borch Olsen",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 9,
+                            "name": "Carl Hovind",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Co-Producer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 10,
+                            "name": "James Njie",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mixing Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 11,
+                            "name": "Chris Gehringer",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mastering Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": null,
+                            "assetType": "AUD",
+                            "sourceFormat": null,
+                            "assetProperties": null,
+                            "conversions": []
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "SOUNDTRACK-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "GBARL1901090",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 2,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "standard",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 Loudmouth Music Limited",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "Au/Ra x Alan Walker",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                },
+                {
+                    "offerId": 934625724,
+                    "raasTrackNo": "51900314320190920",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 3,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 316,
+                    "scheduleSetId": "19419840",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Death Stranding",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "CHVRCHES",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Recording Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Iain Cook",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Keyboards",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Martin Doherty",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Keyboards",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 3,
+                            "name": "Lauren Mayberry",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Vocal",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 4,
+                            "name": "CHVRCHES & Death Stranding: Timefall",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 5,
+                            "name": "Mark Stent",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mixing Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 6,
+                            "name": "Chris Gehringer",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mastering Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": 13954289,
+                            "assetType": "AUD",
+                            "sourceFormat": "DDP",
+                            "assetProperties": {
+                                "BIT_DEPTH": "16",
+                                "CHANNEL_COUNT": "2"
+                            },
+                            "conversions": [
+                                {
+                                    "aomaConversionTypeId": 966,
+                                    "conversionTypeDescr": "Full Length - Flac, 16Bit, 44.1KHz, Interleave Stereo, Linear PCM"
+                                }
+                            ]
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "SOUNDTRACK-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "GBZN81900001",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 3,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "instant-gratification",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 CHVRCHES under exclusive license to RCA Records",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "CHVRCHES",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                },
+                {
+                    "offerId": 934625722,
+                    "raasTrackNo": "H1547047220190924",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 4,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 182,
+                    "scheduleSetId": "19419839",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Yellow Box",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "The Neighbourhood",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Jesse James Rutherford",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Dylan Bauld",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 3,
+                            "name": "Michael Margott",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 4,
+                            "name": "Danny Parra",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Mixing Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Recording Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 5,
+                            "name": "Jeremiah Freedman",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 6,
+                            "name": "Brandon Fried",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 7,
+                            "name": "Mike Bozzi",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mastering Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 8,
+                            "name": "Zachary Abels",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": null,
+                            "assetType": "AUD",
+                            "sourceFormat": null,
+                            "assetProperties": null,
+                            "conversions": []
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "ALTERNATIVE-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "USSM11910614",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 4,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "standard",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 Columbia Records, a Division of Sony Music Entertainment",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "The Neighbourhood",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                },
+                {
+                    "offerId": 934625719,
+                    "raasTrackNo": "F1315317320190614",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 5,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 205,
+                    "scheduleSetId": "19419839",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Meanwhile... In Genova",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "THE S.L.P.",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Bass",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Guitar",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Piano",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Synthesizer",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Vocal",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Sergio Pizzorno",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Arranger",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Mixing Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Tim Carter",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Background Vocal",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Bass",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Drums",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Guitar",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Piano",
+                                    "userDefined": true,
+                                    "roleType": "Performance"
+                                },
+                                {
+                                    "roleName": "Programmer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 3,
+                            "name": "Stephen McLaughlin",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Mixing Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 4,
+                            "name": "Felix Rashman",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 5,
+                            "name": "Jo Wander",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 6,
+                            "name": "Marli Wren",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Assistant Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 7,
+                            "name": "Matt Colton",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mastering Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": null,
+                            "assetType": "AUD",
+                            "sourceFormat": null,
+                            "assetProperties": null,
+                            "conversions": []
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "SOUNDTRACK-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "GBARL1900749",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 5,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "standard",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 Sony Music Entertainment UK Limited",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "THE S.L.P.",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                },
+                {
+                    "offerId": 934625725,
+                    "raasTrackNo": "60826325020190731",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 6,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 280,
+                    "scheduleSetId": "19419839",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Ludens",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "Bring Me The Horizon",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Oliver Sykes",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Jordan Fish",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Vocal Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 3,
+                            "name": "Dan Lancaster",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                },
+                                {
+                                    "roleName": "Mixing Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 4,
+                            "name": "Phil Gornell",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Assistant Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 5,
+                            "name": "Claudio Adamo",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Assistant Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 6,
+                            "name": "Rhys May",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mixing Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 7,
+                            "name": "Ted Jensen",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Mastering Engineer",
+                                    "userDefined": true,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": null,
+                            "assetType": "AUD",
+                            "sourceFormat": null,
+                            "assetProperties": null,
+                            "conversions": []
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "SOUNDTRACK-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "GBARL1900912",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 6,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "standard",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 Sony Music Entertainment UK Limited",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "Bring Me The Horizon",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                },
+                {
+                    "offerId": 934625723,
+                    "raasTrackNo": "K2000570020190924",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 7,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 212,
+                    "scheduleSetId": "19419839",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Born In The Slumber",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "flora cash",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Cole Randall",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "Shpresa Lleshaj-Randall",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": null,
+                            "assetType": "AUD",
+                            "sourceFormat": null,
+                            "assetProperties": null,
+                            "conversions": []
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "SOUNDTRACK-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "USRC11902797",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 7,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "standard",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 Bee & El/RCA Records",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "flora cash",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                },
+                {
+                    "offerId": 934625726,
+                    "raasTrackNo": "Z2000570220190924",
+                    "raasTrackExt": "  ",
+                    "raasTrackId": 1,
+                    "sideNumber": 1,
+                    "trackNumber": 8,
+                    "trackType": "SIMPLE_TRACK",
+                    "trackMediaType": "AUDIO",
+                    "trackTime": 189,
+                    "scheduleSetId": "19419839",
+                    "excludeSetId": null,
+                    "parentRaasTrackNo": null,
+                    "parentRaasTrackExt": null,
+                    "parentRaasTrackId": null,
+                    "lyrics": null,
+                    "title": {
+                        "title": "Sing To Me",
+                        "language": "en",
+                        "phonetic": null,
+                        "version": null,
+                        "alternate": null,
+                        "localTitles": []
+                    },
+                    "artists": [
+                        {
+                            "seqNo": 1,
+                            "name": "MISSIO",
+                            "type": "Primary",
+                            "roles": [
+                                {
+                                    "roleName": "Performer",
+                                    "userDefined": false,
+                                    "roleType": "Performance"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "contributors": [
+                        {
+                            "seqNo": 1,
+                            "name": "Matthew Brue",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 2,
+                            "name": "David Butler",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        },
+                        {
+                            "seqNo": 3,
+                            "name": "Dwight A. Baker",
+                            "type": null,
+                            "roles": [
+                                {
+                                    "roleName": "Composer",
+                                    "userDefined": false,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Lyricist",
+                                    "userDefined": true,
+                                    "roleType": "Composition"
+                                },
+                                {
+                                    "roleName": "Producer",
+                                    "userDefined": false,
+                                    "roleType": "Production"
+                                }
+                            ],
+                            "localNames": []
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "masterId": null,
+                            "assetType": "AUD",
+                            "sourceFormat": null,
+                            "assetProperties": null,
+                            "conversions": []
+                        }
+                    ],
+                    "metadata": {
+                        "applePreOrder": true,
+                        "genre": "SOUNDTRACK-00",
+                        "label": "Sony Interactive Entertainment/RCA Records",
+                        "preOrderPreview": false,
+                        "provider": "Sony BMG Music Entertainment.",
+                        "publisher": null,
+                        "albumAdvisory": null,
+                        "albumCopyright": null,
+                        "albumCopyrightType": null,
+                        "albumCopyrightYear": null,
+                        "albumDescription": null,
+                        "albumParentRepOwnerCode": null,
+                        "albumParentRepOwnerDesc": null,
+                        "closedCaptionAvailable": null,
+                        "countryOfOrigin": null,
+                        "hdAvailable": null,
+                        "imDeliver": null,
+                        "imDescription": null,
+                        "lfvPhyReleaseDate": null,
+                        "mfitDeliver": null,
+                        "originalSpokenLocale": null,
+                        "parentFlorCode": null,
+                        "parentFlorDesc": null,
+                        "physicalProdMediaCt": 1,
+                        "physicalProdReleaseDt": "2019-11-07",
+                        "physicalProdTrackBundleCt": 0,
+                        "physicalProdTrackCt": 8,
+                        "physicalProdUpc": "886448046455",
+                        "productGrid": null,
+                        "productionCompany": null,
+                        "rentalType": null,
+                        "subType": null,
+                        "albumArtist": null,
+                        "synopsis": null,
+                        "includeChapter": null,
+                        "audioLanguage": "en",
+                        "isrc": "USRC11902798",
+                        "mfitContact": null,
+                        "performanceGrid": null,
+                        "physicalDiscNo": 1,
+                        "physicalTrackHiddenIn": "N",
+                        "physicalTrackNo": 8,
+                        "preOrderOnly": false,
+                        "preOrderTrackType": "standard",
+                        "relatedAudioIsrc": null,
+                        "trackAdvisory": null,
+                        "trackCopyright": "(P) 2019 RCA Records, a division of Sony Music Entertainment",
+                        "trackCopyrightType": null,
+                        "trackCopyrightYear": 2019,
+                        "trackGrid": null,
+                        "trackParentRepOwnerCode": null,
+                        "trackParentRepOwnerDesc": null,
+                        "trackArtist": "MISSIO",
+                        "timeCodeFormat": null,
+                        "chapterStartTime": null,
+                        "chapterDuration": null,
+                        "territoryMetadataValues": null,
+                        "keywords": [],
+                        "channel": null
+                    }
+                }
+            ],
+            "scheduleSets": {
+                "19419840": [
+                    {
+                        "functionalityType": "PERMANENT_DOWNLOAD_TETHERED",
+                        "territoryCd": "JP",
+                        "usageStatus": "INCLUDE",
+                        "startDate": "2019-10-03",
+                        "startDateTime": null,
+                        "endDate": null,
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [],
+                        "rightsClaimPolicies": [],
+                        "prices": [
+                            {
+                                "startDate": "2019-10-03",
+                                "endDate": null,
+                                "startDateTime": null,
+                                "endDateTime": null,
+                                "currencyCode": "JPY",
+                                "priceType": "PRICE_CODE",
+                                "priceCode": "T12",
+                                "price": null,
+                                "preorder": null
+                            }
+                        ],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "STREAMING_DEVICE_LISTEN",
+                        "territoryCd": "JP",
+                        "usageStatus": "INCLUDE",
+                        "startDate": "2019-10-03",
+                        "startDateTime": null,
+                        "endDate": null,
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "CUSTOM_RINGTONE",
+                        "territoryCd": "JP",
+                        "usageStatus": "INCLUDE",
+                        "startDate": "2019-10-03",
+                        "startDateTime": null,
+                        "endDate": null,
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    }
+                ],
+                "19419841": [
+                    {
+                        "functionalityType": "FULL_ALBUM_DOWNLOAD",
+                        "territoryCd": "JP",
+                        "usageStatus": "INCLUDE",
+                        "startDate": "2019-11-07",
+                        "startDateTime": null,
+                        "endDate": null,
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": "2019-10-03",
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [],
+                        "rightsClaimPolicies": [],
+                        "prices": [
+                            {
+                                "startDate": "2019-09-30",
+                                "endDate": null,
+                                "startDateTime": null,
+                                "endDateTime": null,
+                                "currencyCode": "JPY",
+                                "priceType": "PRICE_CODE",
+                                "priceCode": "B64",
+                                "price": null,
+                                "preorder": null
+                            }
+                        ],
+                        "scheduleIntervals": []
+                    }
+                ],
+                "19419839": [
+                    {
+                        "functionalityType": "PERMANENT_DOWNLOAD_TETHERED",
+                        "territoryCd": "JP",
+                        "usageStatus": "INCLUDE",
+                        "startDate": "2019-11-07",
+                        "startDateTime": null,
+                        "endDate": null,
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [],
+                        "rightsClaimPolicies": [],
+                        "prices": [
+                            {
+                                "startDate": "2019-11-07",
+                                "endDate": null,
+                                "startDateTime": null,
+                                "endDateTime": null,
+                                "currencyCode": "JPY",
+                                "priceType": "PRICE_CODE",
+                                "priceCode": "T12",
+                                "price": null,
+                                "preorder": null
+                            }
+                        ],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "STREAMING_DEVICE_LISTEN",
+                        "territoryCd": "JP",
+                        "usageStatus": "INCLUDE",
+                        "startDate": "2019-11-07",
+                        "startDateTime": null,
+                        "endDate": null,
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "CUSTOM_RINGTONE",
+                        "territoryCd": "JP",
+                        "usageStatus": "INCLUDE",
+                        "startDate": "2019-11-07",
+                        "startDateTime": null,
+                        "endDate": null,
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    }
+                ]
+            },
+            "excludeSets": null
+        }
+    }
+}

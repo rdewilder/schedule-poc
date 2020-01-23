@@ -1,0 +1,432 @@
+{
+    "schemaVersion": "0.2.0",
+    "messageId": "a3166148-de29-44b6-bb0b-0be0229d67a2",
+    "messageTimestamp": "2019-08-29T04:33:27.607Z",
+    "success": true,
+    "errorCode": null,
+    "errorMessage": null,
+    "group": {
+        "groupId": 159660028,
+        "aomaDspId": "AMM",
+        "actionType": "REV",
+        "priority": 4,
+        "deliverySpecVersion": "DDEX_3_8_1",
+        "holdIndicator": false,
+        "sampleDrop": false,
+        "assets": false,
+        "lightweightRevoke": true,
+        "supportTypes": [],
+        "clientProperties": {
+            "AOMA_BATCH_ID": "166943884"
+        },
+        "product": {
+            "offerId": 928704200,
+            "raasProductId": "G010001122451O",
+            "language": null,
+            "releaseType": "Album",
+            "scheduleSetId": "19199089",
+            "excludeSetId": null,
+            "clearances": [
+                {
+                    "functionalityType": "AD_STREAMING",
+                    "territoryCd": "FR",
+                    "cleared": false
+                },
+                {
+                    "functionalityType": "FULL_ALBUM_DOWNLOAD",
+                    "territoryCd": "FR",
+                    "cleared": false
+                },
+                {
+                    "functionalityType": "PERMANENT_DOWNLOAD_TETHERED",
+                    "territoryCd": "FR",
+                    "cleared": false
+                },
+                {
+                    "functionalityType": "STREAMING_DEVICE_LISTEN",
+                    "territoryCd": "FR",
+                    "cleared": false
+                }
+            ],
+            "igOfferMaps": null,
+            "synopsis": null,
+            "title": {
+                "title": "Hit Collection - Edition",
+                "language": "en",
+                "phonetic": null,
+                "version": null,
+                "alternate": null,
+                "localTitles": []
+            },
+            "artists": [
+                {
+                    "seqNo": 1,
+                    "name": "Johnny Cash",
+                    "type": "Primary",
+                    "roles": [
+                        {
+                            "roleName": "MainArtist",
+                            "userDefined": false,
+                            "roleType": "Performance"
+                        }
+                    ],
+                    "localNames": [
+                        {
+                            "name": "強尼凱許",
+                            "language": "zh-Hant",
+                            "phonetic": null
+                        }
+                    ]
+                }
+            ],
+            "contributors": [],
+            "assets": [
+                {
+                    "masterId": null,
+                    "assetType": "COV",
+                    "sourceFormat": null,
+                    "assetProperties": null,
+                    "conversions": []
+                }
+            ],
+            "metadata": {
+                "applePreOrder": null,
+                "genre": "Pop",
+                "label": "SONY BMG Catalog",
+                "preOrderPreview": null,
+                "provider": "Sony BMG Music Entertainment.",
+                "publisher": null,
+                "albumAdvisory": null,
+                "albumCopyright": "(P) 2007 SONY BMG MUSIC ENTERTAINMENT (GERMANY) GmbH",
+                "albumCopyrightType": "P",
+                "albumCopyrightYear": 2007,
+                "albumDescription": null,
+                "albumParentRepOwnerCode": null,
+                "albumParentRepOwnerDesc": null,
+                "closedCaptionAvailable": null,
+                "countryOfOrigin": null,
+                "hdAvailable": null,
+                "imDeliver": null,
+                "imDescription": null,
+                "lfvPhyReleaseDate": null,
+                "mfitDeliver": null,
+                "originalSpokenLocale": null,
+                "parentFlorCode": null,
+                "parentFlorDesc": null,
+                "physicalProdMediaCt": 1,
+                "physicalProdReleaseDt": "2015-09-10",
+                "physicalProdTrackBundleCt": 0,
+                "physicalProdTrackCt": 14,
+                "physicalProdUpc": "886970896726",
+                "productGrid": "A10301A0001122451O",
+                "productionCompany": null,
+                "rentalType": null,
+                "subType": null,
+                "albumArtist": "Johnny Cash",
+                "synopsis": null,
+                "includeChapter": null,
+                "audioLanguage": null,
+                "isrc": null,
+                "mfitContact": null,
+                "performanceGrid": null,
+                "physicalDiscNo": null,
+                "physicalTrackHiddenIn": null,
+                "physicalTrackNo": null,
+                "preOrderOnly": null,
+                "preOrderTrackType": null,
+                "relatedAudioIsrc": null,
+                "trackAdvisory": null,
+                "trackCopyright": null,
+                "trackCopyrightType": null,
+                "trackCopyrightYear": null,
+                "trackGrid": null,
+                "trackParentRepOwnerCode": null,
+                "trackParentRepOwnerDesc": null,
+                "trackArtist": null,
+                "timeCodeFormat": null,
+                "chapterStartTime": null,
+                "chapterDuration": null,
+                "territoryMetadataValues": null,
+                "keywords": [],
+                "channel": null
+            },
+            "bonuses": [],
+            "tracks": [],
+            "scheduleSets": {
+                "19199089": [
+                    {
+                        "functionalityType": "FULL_ALBUM_DOWNLOAD",
+                        "territoryCd": "FR",
+                        "usageStatus": "EXCLUDE",
+                        "startDate": "2015-09-10",
+                        "startDateTime": null,
+                        "endDate": "2019-08-27",
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [
+                            {
+                                "commercialModelType": "PayAsYouGoModel",
+                                "useTypes": [
+                                    "PermanentDownload"
+                                ]
+                            }
+                        ],
+                        "rightsClaimPolicies": [],
+                        "prices": [
+                            {
+                                "startDate": "2015-09-10",
+                                "endDate": "2019-08-27",
+                                "startDateTime": null,
+                                "endDateTime": null,
+                                "currencyCode": "EUR",
+                                "priceType": "WHOLESALE",
+                                "priceCode": null,
+                                "price": "5.76",
+                                "preorder": false
+                            }
+                        ],
+                        "scheduleIntervals": []
+                    }
+                ],
+                "19199087": [
+                    {
+                        "functionalityType": "PERMANENT_DOWNLOAD_TETHERED",
+                        "territoryCd": "FR",
+                        "usageStatus": "EXCLUDE",
+                        "startDate": "2015-09-10",
+                        "startDateTime": null,
+                        "endDate": "2019-08-27",
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [
+                            {
+                                "commercialModelType": "PayAsYouGoModel",
+                                "useTypes": [
+                                    "PermanentDownload"
+                                ]
+                            }
+                        ],
+                        "rightsClaimPolicies": [],
+                        "prices": [
+                            {
+                                "startDate": "2015-09-10",
+                                "endDate": "2019-08-27",
+                                "startDateTime": null,
+                                "endDateTime": null,
+                                "currencyCode": "EUR",
+                                "priceType": "WHOLESALE",
+                                "priceCode": null,
+                                "price": "0.95",
+                                "preorder": false
+                            }
+                        ],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "STREAMING_DEVICE_LISTEN",
+                        "territoryCd": "FR",
+                        "usageStatus": "EXCLUDE",
+                        "startDate": "2015-09-10",
+                        "startDateTime": null,
+                        "endDate": "2019-08-27",
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [
+                            {
+                                "commercialModelType": "SubscriptionModel",
+                                "useTypes": [
+                                    "ConditionalDownload",
+                                    "NonInteractiveStream",
+                                    "OnDemandStream"
+                                ]
+                            }
+                        ],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "AD_STREAMING",
+                        "territoryCd": "FR",
+                        "usageStatus": "EXCLUDE",
+                        "startDate": "2015-09-10",
+                        "startDateTime": null,
+                        "endDate": "2019-08-27",
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [
+                            {
+                                "commercialModelType": "AdvertisementSupportedModel",
+                                "useTypes": [
+                                    "NonInteractiveStream",
+                                    "OnDemandStream"
+                                ]
+                            }
+                        ],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    }
+                ],
+                "19199088": [
+                    {
+                        "functionalityType": "PERMANENT_DOWNLOAD_TETHERED",
+                        "territoryCd": "FR",
+                        "usageStatus": "EXCLUDE",
+                        "startDate": "2015-09-10",
+                        "startDateTime": null,
+                        "endDate": "2019-08-27",
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [
+                            {
+                                "commercialModelType": "PayAsYouGoModel",
+                                "useTypes": [
+                                    "PermanentDownload"
+                                ]
+                            }
+                        ],
+                        "rightsClaimPolicies": [],
+                        "prices": [
+                            {
+                                "startDate": "2015-09-10",
+                                "endDate": "2019-08-27",
+                                "startDateTime": null,
+                                "endDateTime": null,
+                                "currencyCode": "EUR",
+                                "priceType": "WHOLESALE",
+                                "priceCode": null,
+                                "price": "0.72",
+                                "preorder": false
+                            }
+                        ],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "STREAMING_DEVICE_LISTEN",
+                        "territoryCd": "FR",
+                        "usageStatus": "EXCLUDE",
+                        "startDate": "2015-09-10",
+                        "startDateTime": null,
+                        "endDate": "2019-08-27",
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [
+                            {
+                                "commercialModelType": "SubscriptionModel",
+                                "useTypes": [
+                                    "ConditionalDownload",
+                                    "NonInteractiveStream",
+                                    "OnDemandStream"
+                                ]
+                            }
+                        ],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    },
+                    {
+                        "functionalityType": "AD_STREAMING",
+                        "territoryCd": "FR",
+                        "usageStatus": "EXCLUDE",
+                        "startDate": "2015-09-10",
+                        "startDateTime": null,
+                        "endDate": "2019-08-27",
+                        "endDateTime": null,
+                        "priorPreorder": false,
+                        "intervals": true,
+                        "redownload": null,
+                        "preOrderDate": null,
+                        "clipPreviewDate": null,
+                        "clipPreviewDateTime": null,
+                        "coverArtPreviewDate": null,
+                        "coverArtPreviewDateTime": null,
+                        "trackListPreviewDate": null,
+                        "trackListPreviewDateTime": null,
+                        "releaseDisplayDate": null,
+                        "releaseDisplayDateTime": null,
+                        "commercialModels": [
+                            {
+                                "commercialModelType": "AdvertisementSupportedModel",
+                                "useTypes": [
+                                    "NonInteractiveStream",
+                                    "OnDemandStream"
+                                ]
+                            }
+                        ],
+                        "rightsClaimPolicies": [],
+                        "prices": [],
+                        "scheduleIntervals": []
+                    }
+                ]
+            },
+            "excludeSets": null
+        }
+    }
+}

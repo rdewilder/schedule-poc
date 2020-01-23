@@ -1,6 +1,11 @@
 //const schedule = require('./schedule.json');
-//const schedule = require('./schedule.no.preorder.json');
-const schedule = require('./schedule.timedate.json');
+const schedule = require('./fixtures/schedule-multi-preorder-prices.json');
+//const schedule = require('./fixtures/schedule.timedate.json');
+const samples = new Map();
+samples.set('test1', require('./fixtures/schedule-multi-preorder-prices.json'));
+samples.set('test2', require('./fixtures/schedule-single-invalid-price.json'));
+samples.set('test3', require('./fixtures/schedule.no.preorder.json'));
+
 
 
 /**
@@ -19,12 +24,6 @@ const schedule = require('./schedule.timedate.json');
  * 
  */
 
-
-schedule.prices = getValidPrices(schedule);
-let {preorder, normal} = groupPrices(schedule);
-let prices = alignDates(preorder, normal, schedule);
-console.log(prices);
-
 function getValidPrices(schedule) {
   let prices = [];
 
@@ -33,15 +32,16 @@ function getValidPrices(schedule) {
     return schedule.startDate ? schedule.startDate : schedule.startDateTime;
   }());
 
-  console.log(scheduleStart);
-
   for (var i = 0; i < schedule.prices.length; i++) {
     schedule.prices[i].absStartDate = schedule.prices[i].startDate ? schedule.prices[i].startDate : schedule.prices[i].startDateTime;
     schedule.prices[i].absEndDate = schedule.prices[i].endDate ? schedule.prices[i].endDate : schedule.prices[i].endDateTime;
     
+    /**
+     * If no absEndDate or absEndate >= scheduleStart it is valid
+     * 
+     */
     if (!schedule.prices[i].absEndDate || schedule.prices[i].absEndDate >= scheduleStart) {
       if(schedule.prices[i].absStartDate < scheduleStart) {
-        console.log('in here');
         if(schedule.preOrderDate) {
           schedule.prices[i].startDate = schedule.preOrderDate;
           schedule.prices[i].startDateTime = null;
@@ -87,9 +87,12 @@ function alignDates(preorder, normal, schedule) {
     if(preorder[preorder.length-1].endDate != schedule.startDate) {
       preorder[preorder.length-1].endDate = schedule.startDate;
       let price = {...preorder[preorder.length-1]};
+      price.absStartDate = null;
+      price.absEndDate = null;
       price.startDate = preorder[preorder.length-1].endDate;
       price.endDate = normal[0].startDate;
       price.preorder = false;
+      //console.log(`align dates 2: ${JSON.stringify(price,null,4)}`);
       normal.unshift(price);
     }
   }
@@ -107,11 +110,23 @@ function alignDates(preorder, normal, schedule) {
     }
   }
 
+  //console.log(`normal: ${JSON.stringify(normal,null,4)}`);
   prices.push(...preorder);
   prices.push(...normal);
+  //console.log(`prices: ${JSON.stringify(prices,null,4)}`);
 
   return prices;
 
 }
+
+function normalize(test) {
+  var schedule = samples.get(test);
+  schedule.prices = getValidPrices(schedule);
+  let {preorder, normal} = groupPrices(schedule);
+  schedule.prices = alignDates(preorder, normal, schedule);
+  return schedule;
+}
+
+module.exports = normalize;
 
 
